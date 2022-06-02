@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    
+     <link rel="stylesheet" href="main.css" type="text/css" />
+    
+
+    <title>Carton_Company_website</title>
+  </head>
+  <body>
+
+    <!--nawigacja -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3" href="#"><i class="bi bi-box "></i> Carton-Company</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item">
+              <a class="nav-link " data-bs-toggle="offcanvas" href="#informacja" role="button" aria-controls="offcanvasExample" href="#">Informacje </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " data-bs-toggle="offcanvas" href="#kontakt" role="button" aria-controls="offcanvasExample" href="#">Kontakt</a>
+            </li>
+            
+           
+        </div>
+      </div>
+    </nav>
+
+
+    <!--sekcja główna-->
+
+    <main>
+      <div class="container mt-5">
+        <div class="row ">
+          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mt-5 lh-base ">
+            <h1 class="display-1 ">O nas</h1>
+            <p class="display-5 mt-3 text-secondary ">
+              Jesteśmy firmą, która od ponad 20 lat zajmuje się produkowaniem kartonów
+            </p>
+            <p class="display-6 mt-3 text-secondary">Nasze główne hasła to <br>  <div class="mt-3 display-6 text-secondary">jakość i <button data-bs-toggle="modal" data-bs-target="#ekologia" type="button" class="btn btn-outline-success mt-1 font-monospace fs-2 shadow-lg rounded-2">ekologia</button></div></p>
+          </div>
+          <div class="col-xl-6 mt-5">
+            <div class="card bg-dark text-dark shadow carton_foto">
+              <img 
+                src="https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyZGJvYXJkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                
+                <h5 class="card-title text-center display-5">Produkujemy</h5>
+                <p class="card-text">
+                 <p class="display-6 ms-2"><i class="bi bi-box2 me-3"></i> kartony klapowe zbiorcze</p>
+                 <p class="display-6 ms-2"><i class="bi bi-box2 me-3"></i> kartony fasonowe z wykrojnika</p>
+                 <p class="display-6 ms-2"><i class="bi bi-box2 me-3"></i> pudła kaszerowane</p>
+                 <p class="display-6 ms-2"><i class="bi bi-box2 me-3"></i> wyposażenie kartonów</p>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+
+    <!--sekcja-4*card-->
+
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+        
+            <div class=" col-lg-3 col-md-6  mt-5 mb-5 ">
+              <div class="card shadow" style="width: 18rem;">
+               <img src="https://images.unsplash.com/photo-1573376670774-4427757f7963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGNhcmRib2FyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Kartony klapowe zbiorcze</h5>
+                <p class="card-text">Kartony klapowe mogą mieć szerokie zastosowanie np. w firmach kurierskich, przewozowych, logistycznych.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5 mb-5 ">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1630448926286-0a77c8ba11e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fGNhcmRib2FyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Kartony fasonowe</h5>
+              <p class="card-text">Cechą charakterystyczną jest indywidualna konstrukcja, którą uzyskuje się dzięki zastosowaniu specjalnych wykrojników.</p>
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5 mb-5">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1595246135406-803418233494?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGNhcmRib2FyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+           <div class="card-body">
+            <h5 class="card-title">Pudła kaszerowane</h5>
+            <p class="card-text">Opakowania wysokiej jakości z tektur o przeróżnej gęstości dla uzyskania pewności dopasowania do pakowanych produktów.</p>
+   
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5 mb-5">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1586015988173-ee1a56ffe8fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTIxfHxjYXJkYm9hcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+           <div class="card-body">
+            <h5 class="card-title">Wyposażenie kartonów</h5>
+            <p class="card-text">Oferujemy szeroki wybór wyposażeń, które wykonane z materiałów najwyższej jakości, są to np. kratownice, przekładki.</p>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <!--sekcja z zapytaniem ofertowym-->
+    <section>
+      <div class="container">
+        <div class="row ">
+          <div class="col-6 mt-5 ">
+            <h2 class="display-2">Projekty</h2>
+            <p class="display-5 mt-3 text-secondary">Produkowane opakowania wykonujemy wg. katalogu
+              <button type="button" class="btn btn-outline-success mt-2 font-monospace fs-2 shadow-lg rounded-2" data-bs-toggle="popover" title="FEFCO" data-bs-content="Katalog FEFCO jest zbiorem podstawowych wzorów opakowań kartonowych z tektury falistej, który jest znany na skalę międzynarodową.">FEFCO</button>
+             oraz prowadzimy własne projekty.</p> 
+            <p class="display-6 text-secondary mt-5"><i class="bi bi-truck"></i> Oferujemy również transport wyprodukowanych produktów.</p>
+          </div>
+          <div id="hide" class="col-6 mt-5 text-center"> <br><br><br><br><br><br>
+            <i class="bi bi-box text-success fw-bold display-1"></i>
+            <p><button  type="button" class=" btn btn-outline-success mt-4 font-monospace fs-2 rounded-2 shadow" data-bs-toggle="modal" data-bs-target="#oferta">
+               Zapytanie Ofertowe
+              </button>
+
+          </div>
+          <div id="show" class="col-12 text-center"> <br><br><br><br><br><br>
+            <i class="bi bi-box text-success fw-bold display-1"></i>
+            <p><button  type="button" class=" btn btn-outline-success mt-4 font-monospace fs-2 rounded-2 shadow" data-bs-toggle="modal" data-bs-target="#oferta">
+               Zapytanie Ofertowe
+              </button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Modal do ekologia -->
+
+  <div class="modal fade" id="ekologia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Jesteśmy <span class="text-success">Eko</span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p>Kartony produkowane przez naszą firme są przyjazne dla środowiska za sprawą swojego pochodzenia. Wytwarzamy je głównie z materiałów pochodzących z recyclingu.</p>
+          <p>Chcąc nadążyć za rosnącym zapotrzebowaniem rynku na ekologiczne opakowania inwestujemy w rozwój i unowocześnienie parku maszynowego.</p>
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal do zamowienia -->
+
+<div class="modal fade" id="oferta" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bolder text-success" id="staticBackdropLabel">Twoje zamówienie</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+                <div class="mb-3">
+                  <label class="form-label">Rodzaj Kartonu:</label>
+                  <input type="email" class="form-control"  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Przewodywana ilość sztuk:</label>
+                  <input type="email" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Termin realizacji:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Długość opakowania:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+              </form>
+              <form>
+                <div class="mb-3">
+                  <label class="form-label">Szerokość opakowania</label>
+                  <input type="email" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Wysokość opakowania:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Ilość kolorów:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+                 <div class="mb-3">
+                  <label class="form-label">Imię i Nazwisko osoby składającej zamówienie:</label> 
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Email:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="@"
+                  />
+                </div>
+
+                 <div class="mb-3">
+                  <label class="form-label">Ulica i numer domu:</label> 
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Kod Pocztowy:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Miejscowość:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+                 <div class="mb-3">
+                  <label class="form-label">Telefon:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                  />
+                </div>
+                
+              </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success">Wyślij</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--offcanvas informacje-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="informacja" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Informacje</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+     <p class="fw-normal"> opis </p>
+ 
+    </div>
+  </div>
+</div>
+
+<!--offcanvas do kontaktu-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="kontakt" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Informacje</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+     <p>
+      Kontakt
+     </p>
+    </div>
+  </div>
+</div>
+
+
+<!--footer-->
+
+<footer>
+<div class="container container-fluid mt-5 ">
+  <div class="row">
+    <div class="col-12 text-center mt-5 mb-2 ">
+      <div> <span class="fs-1">Odwiedz nas </span> <i class="bi bi-arrow-right fs-1 text-secondary"></i> <i class="bi bi-instagram ms-4 fs-1 text-success fw-bold"></i> <i class="bi bi-facebook ms-4 fs-1 text-success fw-bold"></i> </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+</footer>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+       var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+    </script>
+  </body>
+</html>

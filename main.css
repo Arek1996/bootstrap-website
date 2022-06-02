@@ -1,0 +1,21 @@
+@media screen and (max-width: 1206px) {
+  div .carton_foto {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  div #hide {
+    display: none;
+  }
+}
+@media screen and (max-width: 348px) {
+  div #show {
+    display: block;
+  }
+}
+@media screen and (min-width: 348px) {
+  div #show {
+    display: none;
+  }
+}
